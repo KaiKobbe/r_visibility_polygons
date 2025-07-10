@@ -16,4 +16,4 @@ target_compile_definitions(_cgal_bindings
 # move the compiled module to this folder. You can check with `python setup.py
 # build` how the package will look like and if the module is moved to the right
 # location.
-install(TARGETS _cgal_bindings DESTINATION ./src/rvispoly)
+install(TARGETS _cgal_bindings DESTINATION ./src/r_vis_poly)

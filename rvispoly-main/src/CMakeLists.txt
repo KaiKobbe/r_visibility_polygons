@@ -1,1 +1,1 @@
-add_subdirectory(rvispoly)
+add_subdirectory(r_vis_poly)

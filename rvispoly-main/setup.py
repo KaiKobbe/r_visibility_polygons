@@ -11,7 +11,7 @@ def readme():
 
 
 setup(
-    name="rvispoly",
+    name="r_vis_poly",
     version="0.1.0",
     author="",
     license="",
