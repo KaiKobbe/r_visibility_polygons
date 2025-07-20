@@ -16,7 +16,7 @@ Since the code is writen in C++ and integrated in Python via PyBind11, a modern 
 Installing should be easy to do via the following command:
 
 ```bash
-pip install --verbose git+https://github.com/KaiKobbe/r_visibility_polygons/tree/main/rvispoly-main
+pip install --verbose git+https://github.com/KaiKobbe/r_visibility_polygons
 ```
 
 Note that the installation might take some time as CGAL will be locally installed.
