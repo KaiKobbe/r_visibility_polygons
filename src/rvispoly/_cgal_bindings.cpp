@@ -342,7 +342,7 @@ public:
     auto location = pl.locate(query_point);
     const Arrangement_2::Vertex_const_handle *v;
     Rectilinear_Visibility rv(env);
-    if ((v = boost::get<Arrangement_2::Vertex_const_handle>(&location))) {
+    if ((v = std::get_if<Arrangement_2::Vertex_const_handle>(&location))) {
       auto e_ = (*v)->incident_halfedges();
       if (e_->face() == interior_face) {
           Halfedge_const_handle hh = e_;
